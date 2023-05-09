@@ -163,10 +163,12 @@ function App() {
         </div>
         <img className='blobBlue' src='/blobs.svg' />
       </div> : ''}
-
       {!isStartQuiz ? <div className='startPage'>
+                         <img className='blobYellow' src='/blobs-1.svg' />
                         <h1 className='startHeader'>Quizzical</h1>
                         <button className='btn-startQuiz ' onClick={startQuiz}>Start quiz</button>
+                         <img className='blobBlue' src='/blobs.svg' />
+
                       </div> : ''}
 
     </div>
