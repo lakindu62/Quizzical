@@ -70,9 +70,11 @@ body {
 }
 
 .answers{
-  display: flex;
-  gap: 1em;
+  
+ display: flex;
+
 }
+
 .answersBtn {
   border: 1px solid #293264;
   color:#293264;
@@ -142,9 +144,11 @@ button[disabled] {
   }
 
   .answers{
-    flex-direction: column;
-    gap: 0;
-    
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: left;
+  margin-top: 1em;
+  margin-bottom: 2em;
   }
 
   .answersBtn{
