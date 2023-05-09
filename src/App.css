@@ -148,6 +148,10 @@ button[disabled] {
     width: 50%;
   }
 
+  .body{
+    height: 125vh;
+  }
+
   
 }
 
