@@ -137,7 +137,10 @@ button[disabled] {
 
 @media(max-width:450px){
 
-  
+  .questions--container{
+    margin-top: 5em;
+  }
+
   .answers{
     flex-direction: column;
     gap: 0;
@@ -145,7 +148,7 @@ button[disabled] {
   }
 
   .answersBtn{
-    width: 50%;
+    width: 75%;
   }
 
   .body{
